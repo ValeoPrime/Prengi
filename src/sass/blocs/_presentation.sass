@@ -1,0 +1,51 @@
+.presentation
+    min-height: 900px
+    padding: 79px 0 61px 0
+    background: url(../img/bg/woman__bg.jpg) center center/cover no-repeat
+    &__title
+        color: #ffffff
+        font-size: 30px
+        font-weight: 400
+        text-align: center
+    &__navigation
+        width: 843px
+        min-height: 65px
+        border: 1px solid #ffffff
+        display: flex
+        justify-content: space-between
+        margin: 25px auto 0 auto
+        padding: 25px 0
+        list-style: none
+        border-radius: 5px
+        li
+            padding: 0 20px
+            border-right: 1px solid #ececec
+            &:last-child
+                border-right: none
+        a
+            color: #ffffff
+            &:hover
+                cursor: pointer
+                color: $maincolor
+                text-decoration: none
+    &__slider
+        margin: 35px auto 0 auto
+        text-align: center
+        position: relative
+        &::before
+            content: ""
+            width: 18px
+            height: 60px
+            background: url(../img/content_img/Slider/slider__left__arrow.png) center center/cover no-repeat
+            position: absolute
+            top: 50%
+            transform: translateY(-100%)
+        &::after
+            content: ""
+            width: 18px
+            height: 60px
+            background: url(../img/content_img/Slider/slider__right__arrow.png) center center/cover no-repeat
+            position: absolute
+            top: 50%
+            transform: translateY(-100%)
+            

@@ -1,0 +1,42 @@
+.advantages
+    min-height: 895px
+    padding: 80px 0
+    &__items
+        display: flex
+        justify-content: space-between
+        &:last-child
+            margin-top: 37px
+            .advantages__item
+                font-weight: 700
+
+        .advantages__item
+            width: 360px
+            height: 255px
+            text-align: center
+            border: 1px solid #ececec
+            color: #393939
+            font-size: 18px
+            font-weight: 300
+            position: relative
+            .question, .check
+                position: absolute
+                bottom: 0
+                right: 0
+    &__arrow_down
+        text-align: center
+        margin-top: 72px
+        position: relative
+        &::before
+            content: ""
+            width: 170px
+            height: 50px
+            background: url(../img/icons/down__arrow__icon.png) center center/cover no-repeat
+            position: absolute
+            top: -22px
+    &__title
+        color: #393939
+        font-size: 48px
+        font-weight: 700
+        text-transform: uppercase
+        text-align: center
+        margin-top: 33px
