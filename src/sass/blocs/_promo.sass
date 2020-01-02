@@ -1,0 +1,62 @@
+.promo
+    min-height: 700px
+    padding: 39px 0 195px 0
+    background: url(../img/bg/promo__bg.jpg) center center/cover no-repeat
+    position: relative
+    &__header
+        display: flex
+        justify-content: space-between
+    &__logo
+        height: 65px
+    &__nav
+        ul
+            width: 540px
+            display: flex
+            justify-content: space-between
+            list-style: none
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 27px 0
+    &__items
+        margin-top: 133px
+        width: 525px
+        color: #ffffff;
+        .promo__title
+            font-size: 41px;
+            font-weight: 400;
+        .promo__descr
+            margin-top: 27px
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 300;
+            span
+                font-family: "Roboto - Regular";
+                font-weight: 400;
+    .slider__switch
+        width: 110px
+        height: 12px
+        display: flex
+        justify-content: space-between
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        bottom: 70px
+        img
+            margin-right: 12px
+            cursor: pointer
+            &:last-child
+                margin-right: 0
+                margin-left: 12px
+        div
+            width: 11px
+            height: 11px
+            border: 1px solid #ffffff
+            border-radius: 100%
+            margin-right: 3px
+            cursor: pointer
+            &:last-child
+                margin-right: 0
+        .active
+            background-color: #fff
